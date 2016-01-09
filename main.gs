@@ -5,7 +5,7 @@ function doPost(e){
     "method": "post",
     "payload": payload
   }
-  return UrlFetchApp.fetch("https://api.telegram.org/botYOUR-API-HERE/", data);
+  UrlFetchApp.fetch("https://api.telegram.org/botYOUR-API-HERE/", data);
 }
 
 function identificar(e){
