@@ -1,6 +1,6 @@
 function doPost(e){
   var estringa = JSON.parse(e.postData.contents);
-  payload = identificar(estringa);
+  var payload = identificar(estringa);
   var data = {
     "method": "post",
     "payload": payload
